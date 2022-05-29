@@ -1,0 +1,11 @@
+import random
+
+from matplotlib import pyplot as plt
+import numpy as np
+
+##To start out we'll just use a list and have it randomly select from that list. Next, we'll try loading in the list
+#from a file
+
+animeList = ["Dororo", "Psycho Pass", "Devils Line", "Hitori no Shita", "Love of Kill", "Yona of the Dawn", "Dengeki Daisy"]
+
+print("Don't know what to watch? How about", random.choice(animeList), "?")
